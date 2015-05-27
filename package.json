@@ -1,6 +1,10 @@
 {
   "name": "opsworks-deploy",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbdr/opsworks-deploy.git"
+  },
   "description": "cli for rolling deployment to your AWS OpsWorks stack",
   "main": "deploy.js",
   "dependencies": {
@@ -22,8 +26,11 @@
     "name": "Ben Tidwell",
     "email": "ben.tidwell@careerbuilder.com"
   },
+  "readme": "README.md",
+  "readmeFilename": "README.md",
   "license": "None",
   "engines": {
     "node": ">= 0.10.x"
-  }
+  },
+  "_id": "opsworks-deploy@0.0.1"
 }
