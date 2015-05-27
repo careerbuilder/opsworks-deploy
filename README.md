@@ -10,8 +10,8 @@ The instructions below assume that you have node.js installed (version 0.10.0 or
 
  1. Setup your AWS Account credentials with the following commands, or use [boto](http://boto.readthedocs.org/en/latest/getting_started.html)
  ```
-     export AWS_ACCESS_KEY_ID='YOUR_AWS_KEY'
-     export AWS_SECRET_ACCESS_KEY='YOUR_AWS_SECRET'
+     export AWS_ACCESS_KEY_ID=YOUR_AWS_KEY'
+     export AWS_SECRET_ACCESS_KEY=YOUR_AWS_SECRET'
  ```
  2. Install this module globally using npm.  ```npm install -g opsworks-deploy```
  3. Navigate to your application's root directory
