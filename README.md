@@ -24,3 +24,4 @@ Parameters described:
  3. ```--app``` The opsworks app ID of the application you wish to deploy.
  4. ```--elb``` The name of the elastic load balancer attached to your layer (used for health checks post deployment).
  5. ```--rolling``` Indicates if an app should do a rolling deployment (true "deploy to one instance at a time") or an "all-at-once" deployment (false).
+ 6. ```--revision``` (optional) The revision of the specific commit you wish to deploy.  If not provided the git-rev package will be used to determine the reivision of the current commit in your local repository.
