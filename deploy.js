@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 /*
      Copyright (C) 2015 Careerbuilder, LLC
 
@@ -14,8 +15,6 @@
      You should have received a copy of the GNU General Public License
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-#! /usr/bin/env node
 
 var argv = require('minimist')(process.argv.slice(2));
 var AWS = require('aws-sdk');
