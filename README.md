@@ -29,11 +29,11 @@ To read more on permissions visit [Managing AWS OpsWorks User Permissions](http:
 Parameters described:
 
  |Description|Cli Param|process.env Param|Required?|Default Value|
- |---|---|---|---|---|
- |The AWS region in which your stack is located.|--region|   |no|'us-east-1'|
- |The opsworks ID of your stack.|--stack|AWS_StackId|yes|   |
- |The opsworks layer ID representing the specific instances you want to deploy to.|--layer|AWS_LayerId|yes|   |
- |The opsworks app ID of the application you wish to deploy.|--app|AWS_AppId|yes|   |
- |The name of the elastic load balancer attached to your layer (used for health checks post deployment).|--elb|AWS_ELB_NAME|yes|   |
- |Indicates if an app should do a rolling deployment (true "deploy to one instance at a time") or an "all-at-once" deployment (false).|--rolling|   |no|false|
- |The revision of the specific commit you wish to deploy.  If not provided the git-rev package will be used to determine the reivision of the current commit in your local repository.|--revision|   |no|long revision value generated from git-rev package|
+ |:---|:---|:---|:---|:---|
+ |The AWS region in which your stack is located.|--region|none|no|'us-east-1'|
+ |The opsworks ID of your stack.|--stack|AWS_StackId|yes|none|
+ |The opsworks layer ID representing the specific instances you want to deploy to.|--layer|AWS_LayerId|yes|none|
+ |The opsworks app ID of the application you wish to deploy.|--app|AWS_AppId|yes|none|
+ |The name of the elastic load balancer attached to your layer (used for health checks post deployment).|--elb|AWS_ELB_NAME|yes|none|
+ |Indicates if an app should do a rolling deployment (true "deploy to one instance at a time") or an "all-at-once" deployment (false).|--rolling|none|no|false|
+ |The revision of the specific commit you wish to deploy.  If not provided the git-rev package will be used to determine the reivision of the current commit in your local repository.|--revision|none|no|long revision value generated from git-rev package|
